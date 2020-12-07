@@ -159,6 +159,8 @@ footer .logo {
   line-height: 1.143;
   letter-spacing: 0.02em;
   color: var(--second-color);
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .auth-nav {
@@ -179,11 +181,20 @@ footer .logo {
 
 .hero {
   background-color: var(--bcg-dark-color);
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/hero.jpg);
+  background-repeat: no-repeat;
+  background-position: cover;
+  height: 600px;
 }
 
 .hero .container {
   padding-top: 200px;
-  padding-bottom: 280px;
+  padding-bottom: 200px;
 }
 
 .hero-title {
@@ -221,6 +232,15 @@ footer .logo {
 /* ==================== END hero ========= */
 
 /* ==================== what we do ========= */
+
+.features-list-pic {
+  width: 270px;
+  height: 120px;
+  background-color: var(--bcg-color);
+}
+
+.features-list-pic-item {
+}
 
 .whatwedo .container {
   padding-bottom: 94px;
